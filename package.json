@@ -1,0 +1,23 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "license": "MIT",
+  "workspaces": [
+    "artifacts/*",
+    "lib/*",
+    "scripts"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=artifacts/mockup-sandbox",
+    "build": "npm run build --workspace=artifacts/mockup-sandbox",
+    "typecheck": "tsc --noEmit"
+  },
+  "private": true,
+  "devDependencies": {
+    "prettier": "^3.8.3",
+    "typescript": "~5.9.3"
+  },
+  "dependencies": {
+    "@replit/connectors-sdk": "^0.4.1"
+  }
+}

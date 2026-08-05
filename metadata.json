@@ -1,0 +1,6 @@
+{
+  "name": "Augusta Airways MergeSafe",
+  "description": "Augusta Air & Ground Traffic Synchronization Platform for edge switch servers, LiDAR/Radar triangulation, and AirFlyCar corridors.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
